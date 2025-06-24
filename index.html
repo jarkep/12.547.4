@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BABETOTO - Link Alternatif Barcode</title>
+  <title>Landing Page Babetoto</title>
   <style>
     body {
       margin: 0;
@@ -28,8 +28,6 @@
     }
 
     .banner {
-      background: url('background.jpg') no-repeat center center;
-      background-size: cover;
       padding: 20px;
       border-radius: 15px;
       margin: 20px auto;
@@ -57,17 +55,17 @@
       cursor: pointer;
       text-decoration: none;
       display: inline-block;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+
+    .button-download:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #ff00cc;
+      background-color: #e600b8;
     }
 
     .qr-section {
-      margin: 30px 0;
-    }
-
-    .qr-section img {
-      width: 100%;
-      max-width: 800px;
-      border: 5px solid #fff;
-      border-radius: 10px;
+      display: none;
     }
 
     .btn-login, .btn-daftar {
@@ -80,6 +78,36 @@
       font-size: 16px;
       text-decoration: none;
       display: inline-block;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+
+    .btn-login:hover, .btn-daftar:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #e600ff;
+      background-color: #bf00d4;
+    }
+
+    .icon-section {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .icon-box {
+      text-align: center;
+      width: 100px;
+    }
+
+    .icon-box img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .icon-box p {
+      margin-top: 8px;
+      font-size: 14px;
     }
 
     footer {
@@ -97,17 +125,40 @@
 
   <div class="container">
     <div class="banner">
-      <h1>LINK ALTERNATIF BARCODE</h1>
-      <p>Klik tombol di bawah untuk download barcode akses link alternatif terbaru.</p>
-      <a href="https://jarkep.github.io/12.547.4/3ee6c2f7-5dcb-415e-9793-5f0303b0a93f.png" download class="button-download">KLIK DOWNLOAD</a>
-    </div>
-
-    <div class="qr-section">
-      <img src="https://jarkep.github.io/12.547.4/gsdrtgserg.jpg" alt="Banner Babetoto">
+      <h1>LINK ALTERNATIF BABETOTO</h1>
+      <p>Klik tombol di bawah untuk bermain.</p>
+      <a href="https://babeji.xyz/?ref=semangkabelah" class="button-download">BERMAIN</a>
     </div>
 
     <a href="https://babeji.xyz/?ref=semangkabelah" class="btn-login" target="_blank">LOGIN</a>
     <a href="https://babeji.xyz/?ref=semangkabelah" class="btn-daftar" target="_blank">DAFTAR</a>
+
+    <div class="icon-section">
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/1086/1086741.png" alt="Slots">
+        <p>SLOTS</p>
+      </div>
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/6390/6390401.png" alt="Casino">
+        <p>CASINO</p>
+      </div>
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/860/860749.png" alt="Sports">
+        <p>SPORTS</p>
+      </div>
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/1208/1208433.png" alt="Arcade">
+        <p>ARCADE</p>
+      </div>
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/2420/2420233.png" alt="Poker">
+        <p>POKER</p>
+      </div>
+      <div class="icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/3674/3674448.png" alt="Togel">
+        <p>TOGEL</p>
+      </div>
+    </div>
 
     <footer>
       <p>&copy; 2025 BABETOTO. All rights reserved.</p>
